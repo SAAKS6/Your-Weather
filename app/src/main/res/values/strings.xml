@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Your Weather</string>
+    <string name="empty"> </string>
+
+    <string name="currentWeather">Weather Now</string>
+
+    <string name="noInternet">No Internet Connection</string>
+    <string name="tryAgain">Try Again</string>
+
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+
+    <string name="country_txt">Enter your Country</string>
+    <string name="country_hint">Country</string>
+
+    <string name="city_txt">Enter your City</string>
+    <string name="city_hint">City</string>
+
+    <string name="next_3h">Weather in next 3 hours</string>
+
+    <string name="loading">Loading…</string>
+    <string name="submit">Submit</string>
+
+    <string name="new_city">Add City</string>
+    <string name="browse_city">Browse Cities</string>
+
+    <string name="more_forecast">More Forecast</string>
+
+    <string name="close">Close</string>
+
+    <string name="location_required">Location Permission is required</string>
+    <string name="location_guide">Follow these steps to give the permission\nClick the Button below > Permissions > Location</string>
+
+    <string name="give_permission">Give Permission</string>
+    <string name="restart">Restart App after giving permission</string>
+
+    <string name="search">Search City or Country</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="tempUnit">Temperature Unit</string>
+
+    <string name="about">About</string>
+
+    <string name="change">Change</string>
+    <string name="homeAddress">Home Address</string>
+
+    <string name="clearData">Clear Data?</string>
+    <string name="yes">Yes</string>
+
+    <string name="pleaseWait">Please Wait…</string>
+
+    <string name="about_details1">
+
+        An application which provides the weather forecast worldwide.
+        \n\nWhether it is Celsius or Fahrenheit, the app makes sure to match your preferences. The information about the weather is
+        displayed in a simple way that it is easy to understand and are as follows
+    </string>
+
+    <string name="weather_info_list1">● Current temperature</string>
+    <string name="weather_info_list2">● Weather condition</string>
+    <string name="weather_info_list3">● Feels Like temperature</string>
+    <string name="weather_info_list4">● Humidity</string>
+    <string name="weather_info_list5">● Wind Speed</string>
+    <string name="weather_info_list6">● Date &amp; Time</string>
+    <string name="weather_info_list7">● City &amp; Country</string>
+
+    <string name="about_details2">To provide this reliable information, we have partnered with <b>OpenWeather</b></string>
+
+    <string name="about_details3">Development Technologies</string>
+
+    <string name="version">v1.0</string>
+    <string name="copyright">Copyright © 2024 Your Weather. All rights reserved</string>
+
+    <string name="contact">Contact Us</string>
+    <string name="feedback">Provide Feedback</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome">Welcome</string>
+
+    <string name="guide1">You can view Weather Forecast for your current location and also, you can search for another one</string>
+
+    <string name="guide2">
+        Once you are in the forecast section, you can click on \'More Forecast\' to view the detailed list of the available forecasts
+    </string>
+
+    <string name="guide3">You can also change the temperature unit from in-app Settings</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="get_started">Get Started</string>
+</resources>

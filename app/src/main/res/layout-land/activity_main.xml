@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="?attr/srcCompat"
+    android:gravity="end"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_txt"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="8pt"
+            android:layout_gravity="start"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/country_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:textSize="8pt"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/country_hint"
+            android:inputType="text"
+            android:cursorVisible="true"
+            android:textColorHighlight="?attr/colorAccent"
+            android:textColorHint="?attr/colorAccent"
+            android:textColor="?attr/colorAccent"
+            android:autofillHints="none"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_txt"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="8pt"
+            android:layout_gravity="start"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/city_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:textSize="8pt"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/city_hint"
+            android:inputType="text"
+            android:cursorVisible="true"
+            android:textColorHighlight="?attr/colorAccent"
+            android:textColorHint="?attr/colorAccent"
+            android:textColor="?attr/colorAccent"
+            android:autofillHints="none"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/celsius_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="@string/celsius"
+                android:textColor="?attr/colorSecondary"
+                android:background="@drawable/edittext_bg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:visibility="visible"
+                android:textAllCaps="false"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/fahrenheit_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="@string/fahrenheit"
+                android:textColor="?attr/colorSecondary"
+                android:background="@drawable/edittext_bg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="35dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:visibility="visible"
+                android:textAllCaps="false"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/submit_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="@string/submit"
+                android:layout_marginStart="35dp"
+                android:textColor="?attr/colorPrimary"
+                android:background="@drawable/button_bg"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:visibility="visible"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

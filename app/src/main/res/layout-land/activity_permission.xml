@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorPrimary"
+    android:gravity="center"
+    tools:context=".Permission">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/baseline_location_on_250"
+        android:contentDescription="@string/empty"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_required"
+        android:textColor="?attr/colorAccent"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_guide"
+        android:textColor="?attr/colorSecondary"
+        android:textStyle="normal"
+        android:textSize="7.5pt"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/givePermission_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="@string/give_permission"
+            android:textColor="?attr/colorPrimary"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:visibility="visible"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restart"
+            android:textColor="?attr/colorSecondary"
+            android:textStyle="normal"
+            android:textSize="6pt"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/about_ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarFadeDuration="500"
+    app:layout_scrollEffect="compress"
+    android:fadeScrollbars="true"
+    android:scrollbars="vertical"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="14pt"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_details1"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="10pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_info_list1"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="9pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_info_list2"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="9pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_info_list3"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="9pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_info_list4"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="9pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_info_list5"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="9pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_info_list6"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="9pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_info_list7"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="9pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_details2"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="10pt"
+                android:layout_gravity="start"
+                android:layout_marginTop="25dp"/>
+
+            <ImageView
+                android:id="@+id/open_weather_ImageView"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/open_weather_icon"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/empty"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_details3"
+                android:textColor="?attr/textFillColor"
+                android:textSize="10pt"
+                android:textAlignment="center"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:background="@drawable/heading_bg"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"/>
+
+            <ImageView
+                android:id="@+id/android_studio_ImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/android_studio_icon"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginTop="40dp"
+                android:contentDescription="@string/empty"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <ImageView
+                android:id="@+id/kotlin_ImageView"
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kotlin_icon"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/empty"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <ImageView
+                android:id="@+id/mongodb_ImageView"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:src="@drawable/mongodb_icon"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/empty"
+                android:clickable="true"
+                android:focusable="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:textColor="?attr/textFillColor"
+            android:textSize="6pt"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            android:textColor="?attr/textFillColor"
+            android:textSize="6pt"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="red2">#FFD80032</color>
+    <color name="red3">#FFDD0000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Dark Mode Colors -->
+    <color name="white_darkMode">#FFDFF6FF</color>
+    <color name="light_blue_darkMode">#CC47B5FF</color>
+    <color name="dark_blue_darkMode">#FF06283D</color>
+
+    <!-- Light Mode Colors -->
+    <color name="white_lightMode">#FFCDF5FD</color>
+    <color name="light_blue_lightMode">#FFA0E9FF</color>
+    <color name="blue_lightMode">#FF00A9FF</color>
+
+</resources>

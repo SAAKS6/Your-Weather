@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    tools:context=".Fragment1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/guide_img2"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:contentDescription="@string/empty"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide2"
+            android:textColor="?attr/textFillColor"
+            android:textSize="10pt"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/previous_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="@string/previous"
+                android:textColor="?attr/colorPrimary"
+                android:background="@drawable/button_bg"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:visibility="visible"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/next_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="@string/next"
+                android:textColor="?attr/colorPrimary"
+                android:background="@drawable/button_bg"
+                android:layout_marginStart="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:visibility="visible"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
