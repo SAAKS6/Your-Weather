@@ -16,6 +16,10 @@
     <string name="city_txt">Enter your City</string>
     <string name="city_hint">City</string>
 
+    <string name="time_txt">Set Time</string>
+    <string name="time_hint">time</string>
+
+
     <string name="next_3h">Weather in next 3 hours</string>
 
     <string name="loading">Loading…</string>

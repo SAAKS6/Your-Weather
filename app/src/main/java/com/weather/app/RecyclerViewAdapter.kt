@@ -1,7 +1,6 @@
 package com.weather.app
 
 import android.annotation.SuppressLint
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,6 +44,10 @@ class RecyclerViewAdapter(
 
         holder.description.text = itemList[position].weather[0].main
 
+        holder.time.text = itemList[position].dt_txt.substring(11, 16)
+
+        holder.description.text = itemList[position].weather[0].main
+
         holder.item.setOnClickListener{ popupDialog.showDialog(itemList[position], city, country) }
     }
 
@@ -53,11 +56,13 @@ class RecyclerViewAdapter(
         var weatherIconImageView: ImageView
         var currentTemp: TextView
         var description: TextView
+        var time: TextView
         val item: LinearLayout
         init {
             weatherIconImageView = itemView.findViewById(R.id.weatherIcon_ImageView)
             currentTemp = itemView.findViewById(R.id.currentTemp_TextView)
             description = itemView.findViewById(R.id.description_TextView)
+            time = itemView.findViewById(R.id.time_TextView)
             item = itemView.findViewById(R.id.item)
         }
     }
