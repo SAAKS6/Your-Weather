@@ -1,6 +1,5 @@
 package com.weather.app.WeatherData
 
-import com.fasterxml.jackson.annotation.JsonProperty
 import java.io.Serializable
 import kotlin.collections.List
 
