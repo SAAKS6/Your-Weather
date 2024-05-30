@@ -8,7 +8,8 @@
         <item name="colorSecondary">@color/white_lightMode</item>
         <item name="color">@color/white_lightMode</item>
         <item name="colorAccent">@color/blue_lightMode</item>
-        <item name="srcCompat">@drawable/landing_bg_light</item>
+<!--        <item name="srcCompat">@drawable/landing_bg_light</item>-->
+        <item name="srcCompat">@drawable/srccmpat11</item>
         <item name="textFillColor">@color/blue_lightMode</item>
     </style>
 </resources>

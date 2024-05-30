@@ -13,8 +13,8 @@
     <color name="dark_blue_darkMode">#FF06283D</color>
 
     <!-- Light Mode Colors -->
-    <color name="white_lightMode">#FFCDF5FD</color>
-    <color name="light_blue_lightMode">#FFA0E9FF</color>
+    <color name="white_lightMode">#9bafd9</color>
+    <color name="light_blue_lightMode">#103783</color>
     <color name="blue_lightMode">#FF00A9FF</color>
 
 </resources>
